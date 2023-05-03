@@ -1,20 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
+import Header from "./Header";
+import Footer from "./Footer";
+import Search from "./Search";
+import Content from "./Content";
+import Forecast from "./Forecast";
 
-
-
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello from React
-        </p>
-        
-      </header>
+      <div className="Container">
+        <div className="weather-app-wrapper">
+          <div className="weather-app">
+            <Header />
+            <Search />
+            <Content />
+            <Forecast />
+          </div>
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }
-
-export default App;
