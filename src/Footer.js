@@ -6,7 +6,8 @@ export default function Footer() {
       <a
         href="https://github.com/kobrovac/weather-react"
         target="_blank"
-        class="name"
+        className="name"
+        rel="noopener noreferrer"
       >
         Open-source code
       </a>{" "}
