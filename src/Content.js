@@ -4,7 +4,7 @@ export default function Content() {
   return (
     <div>
       <div className="overview">
-        <h1 id="city"></h1>
+      
         <ul>
           <li>
             Last updated:{" "}
